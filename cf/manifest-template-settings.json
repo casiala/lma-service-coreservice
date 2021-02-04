@@ -1,0 +1,22 @@
+{
+  "dev-edc1" : {
+    "appHostSuffix": "-dev",
+    "appInstances": 1,
+    "logLevel": "DEBUG"
+  },
+  "dev-edc2" : {
+    "appHostSuffix": "-dev",
+    "appInstances": 1,
+    "logLevel": "DEBUG"
+  },
+  "prod-edc1" : {
+    "appHostSuffix": "",
+    "appInstances": 2,
+    "logLevel": "WARN"
+  },
+  "prod-edc2" : {
+    "appHostSuffix": "",
+    "appInstances": 2,
+    "logLevel": "WARN"
+  }
+}
